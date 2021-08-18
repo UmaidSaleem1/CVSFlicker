@@ -25,6 +25,17 @@
 		780E331726CA0B67009B1E9D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E331626CA0B67009B1E9D /* StringConstants.swift */; };
 		780E331926CA0C80009B1E9D /* GetFlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E331826CA0C80009B1E9D /* GetFlickerAPI.swift */; };
 		782DBA6726CCB46500F6774A /* FlickerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA6626CCB46500F6774A /* FlickerDetailViewController.swift */; };
+		782DBA6A26CD864500F6774A /* FlickerAPIServiceControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA6926CD864500F6774A /* FlickerAPIServiceControllerMock.swift */; };
+		782DBA6E26CD88C700F6774A /* FlickerAPIServiceControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA6D26CD88C700F6774A /* FlickerAPIServiceControllerTests.swift */; };
+		782DBA7026CD88E000F6774A /* FlickerAPIDataLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA6F26CD88E000F6774A /* FlickerAPIDataLayerTests.swift */; };
+		782DBA7626CD8A4E00F6774A /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA7526CD8A4E00F6774A /* NetworkManagerMock.swift */; };
+		782DBA7926CD8A6C00F6774A /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA7726CD8A6C00F6774A /* HTTPResponse.swift */; };
+		782DBA7A26CD8A6C00F6774A /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA7826CD8A6C00F6774A /* NetworkManagerProtocol.swift */; };
+		782DBA7D26CD8B8000F6774A /* FlickerAPIMock.json in Resources */ = {isa = PBXBuildFile; fileRef = 782DBA7C26CD8B8000F6774A /* FlickerAPIMock.json */; };
+		782DBA8126CD8C0000F6774A /* GetFlickerAPIModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA8026CD8C0000F6774A /* GetFlickerAPIModelTests.swift */; };
+		782DBA8426CD8DA000F6774A /* FlickSearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA8326CD8DA000F6774A /* FlickSearchViewControllerTests.swift */; };
+		782DBA8726CD8E9C00F6774A /* FlickerSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA8626CD8E9C00F6774A /* FlickerSearchViewModelTests.swift */; };
+		782DBA8926CD8EB700F6774A /* FlickSearchViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA8826CD8EB700F6774A /* FlickSearchViewControllerMock.swift */; };
 		7846BCFB26CB457F006F9808 /* FlickSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BCFA26CB457F006F9808 /* FlickSearchViewController.swift */; };
 		7846BCFE26CB45AE006F9808 /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BCFD26CB45AE006F9808 /* FlickerSearchViewModel.swift */; };
 		7846BD0226CB4EE5006F9808 /* FlickerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BD0126CB4EE5006F9808 /* FlickerLoadingView.swift */; };
@@ -81,6 +92,17 @@
 		780E331626CA0B67009B1E9D /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		780E331826CA0C80009B1E9D /* GetFlickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFlickerAPI.swift; sourceTree = "<group>"; };
 		782DBA6626CCB46500F6774A /* FlickerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerDetailViewController.swift; sourceTree = "<group>"; };
+		782DBA6926CD864500F6774A /* FlickerAPIServiceControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPIServiceControllerMock.swift; sourceTree = "<group>"; };
+		782DBA6D26CD88C700F6774A /* FlickerAPIServiceControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPIServiceControllerTests.swift; sourceTree = "<group>"; };
+		782DBA6F26CD88E000F6774A /* FlickerAPIDataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPIDataLayerTests.swift; sourceTree = "<group>"; };
+		782DBA7526CD8A4E00F6774A /* NetworkManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		782DBA7726CD8A6C00F6774A /* HTTPResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponse.swift; sourceTree = "<group>"; };
+		782DBA7826CD8A6C00F6774A /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		782DBA7C26CD8B8000F6774A /* FlickerAPIMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FlickerAPIMock.json; sourceTree = "<group>"; };
+		782DBA8026CD8C0000F6774A /* GetFlickerAPIModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFlickerAPIModelTests.swift; sourceTree = "<group>"; };
+		782DBA8326CD8DA000F6774A /* FlickSearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickSearchViewControllerTests.swift; sourceTree = "<group>"; };
+		782DBA8626CD8E9C00F6774A /* FlickerSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewModelTests.swift; sourceTree = "<group>"; };
+		782DBA8826CD8EB700F6774A /* FlickSearchViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickSearchViewControllerMock.swift; sourceTree = "<group>"; };
 		7846BCFA26CB457F006F9808 /* FlickSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickSearchViewController.swift; sourceTree = "<group>"; };
 		7846BCFD26CB45AE006F9808 /* FlickerSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewModel.swift; sourceTree = "<group>"; };
 		7846BD0126CB4EE5006F9808 /* FlickerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerLoadingView.swift; sourceTree = "<group>"; };
@@ -143,6 +165,7 @@
 		780E32CC26CA003E009B1E9D /* CVSAssesment */ = {
 			isa = PBXGroup;
 			children = (
+				782DBA7126CD8A2100F6774A /* Network */,
 				7846BD0326CB4F0B006F9808 /* Resources */,
 				7846BCFF26CB4EA0006F9808 /* UIComponent */,
 				780E330926CA09C9009B1E9D /* Helpers */,
@@ -161,6 +184,11 @@
 		780E32E326CA003E009B1E9D /* CVSAssesmentTests */ = {
 			isa = PBXGroup;
 			children = (
+				782DBA8226CD8D7900F6774A /* ViewControllerTests */,
+				782DBA7B26CD8B6600F6774A /* ModelTests */,
+				782DBA6C26CD887F00F6774A /* ServiceControllerTests */,
+				782DBA6B26CD887000F6774A /* DataLayerTests */,
+				782DBA6826CD5E9900F6774A /* Mocks */,
 				780E32E426CA003E009B1E9D /* CVSAssesmentTests.swift */,
 				780E32E626CA003E009B1E9D /* Info.plist */,
 			);
@@ -247,6 +275,107 @@
 				780E330C26CA09F2009B1E9D /* Reachability.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		782DBA6826CD5E9900F6774A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA6926CD864500F6774A /* FlickerAPIServiceControllerMock.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		782DBA6B26CD887000F6774A /* DataLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA6F26CD88E000F6774A /* FlickerAPIDataLayerTests.swift */,
+			);
+			path = DataLayerTests;
+			sourceTree = "<group>";
+		};
+		782DBA6C26CD887F00F6774A /* ServiceControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA6D26CD88C700F6774A /* FlickerAPIServiceControllerTests.swift */,
+			);
+			path = ServiceControllerTests;
+			sourceTree = "<group>";
+		};
+		782DBA7126CD8A2100F6774A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA7726CD8A6C00F6774A /* HTTPResponse.swift */,
+				782DBA7826CD8A6C00F6774A /* NetworkManagerProtocol.swift */,
+				782DBA7426CD8A4300F6774A /* NetworkManagerMock */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		782DBA7426CD8A4300F6774A /* NetworkManagerMock */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA7526CD8A4E00F6774A /* NetworkManagerMock.swift */,
+			);
+			path = NetworkManagerMock;
+			sourceTree = "<group>";
+		};
+		782DBA7B26CD8B6600F6774A /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA7F26CD8BC500F6774A /* APIModel */,
+				782DBA7E26CD8BB100F6774A /* JSONMocks */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		782DBA7E26CD8BB100F6774A /* JSONMocks */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA7C26CD8B8000F6774A /* FlickerAPIMock.json */,
+			);
+			path = JSONMocks;
+			sourceTree = "<group>";
+		};
+		782DBA7F26CD8BC500F6774A /* APIModel */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA8026CD8C0000F6774A /* GetFlickerAPIModelTests.swift */,
+			);
+			path = APIModel;
+			sourceTree = "<group>";
+		};
+		782DBA8226CD8D7900F6774A /* ViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA8526CD8E5B00F6774A /* FlickerSearch */,
+				782DBA8B26CD951D00F6774A /* FlickerDetail */,
+				782DBA8A26CD951400F6774A /* FlickerList */,
+			);
+			path = ViewControllerTests;
+			sourceTree = "<group>";
+		};
+		782DBA8526CD8E5B00F6774A /* FlickerSearch */ = {
+			isa = PBXGroup;
+			children = (
+				782DBA8326CD8DA000F6774A /* FlickSearchViewControllerTests.swift */,
+				782DBA8626CD8E9C00F6774A /* FlickerSearchViewModelTests.swift */,
+				782DBA8826CD8EB700F6774A /* FlickSearchViewControllerMock.swift */,
+			);
+			path = FlickerSearch;
+			sourceTree = "<group>";
+		};
+		782DBA8A26CD951400F6774A /* FlickerList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlickerList;
+			sourceTree = "<group>";
+		};
+		782DBA8B26CD951D00F6774A /* FlickerDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlickerDetail;
 			sourceTree = "<group>";
 		};
 		7846BCFC26CB4587006F9808 /* FlickerSearch */ = {
@@ -458,6 +587,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782DBA7D26CD8B8000F6774A /* FlickerAPIMock.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,10 +613,12 @@
 				780E330B26CA09E4009B1E9D /* Log.swift in Sources */,
 				782DBA6726CCB46500F6774A /* FlickerDetailViewController.swift in Sources */,
 				7846BD1926CB5D16006F9808 /* FlickerCell.swift in Sources */,
+				782DBA7A26CD8A6C00F6774A /* NetworkManagerProtocol.swift in Sources */,
 				7846BD1326CB5740006F9808 /* FlickerRefreshControl.swift in Sources */,
 				7846BD1626CB5845006F9808 /* FlickerToastView.swift in Sources */,
 				7846BD0E26CB5428006F9808 /* FlickerSearchListViewController.swift in Sources */,
 				780E32CE26CA003E009B1E9D /* AppDelegate.swift in Sources */,
+				782DBA7926CD8A6C00F6774A /* HTTPResponse.swift in Sources */,
 				7846BCFE26CB45AE006F9808 /* FlickerSearchViewModel.swift in Sources */,
 				7846BD0A26CB4FA6006F9808 /* TableCellModel.swift in Sources */,
 				780E331926CA0C80009B1E9D /* GetFlickerAPI.swift in Sources */,
@@ -494,6 +626,7 @@
 				7846BD0226CB4EE5006F9808 /* FlickerLoadingView.swift in Sources */,
 				780E330826CA0994009B1E9D /* ErrorResponseModel.swift in Sources */,
 				780E32D026CA003E009B1E9D /* SceneDelegate.swift in Sources */,
+				782DBA7626CD8A4E00F6774A /* NetworkManagerMock.swift in Sources */,
 				7846BCFB26CB457F006F9808 /* FlickSearchViewController.swift in Sources */,
 				7846BD1026CB543D006F9808 /* FlickerSearchListViewModel.swift in Sources */,
 				780E331526CA0ACC009B1E9D /* FlickerAPIDataLayer.swift in Sources */,
@@ -504,7 +637,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				782DBA8426CD8DA000F6774A /* FlickSearchViewControllerTests.swift in Sources */,
 				780E32E526CA003E009B1E9D /* CVSAssesmentTests.swift in Sources */,
+				782DBA7026CD88E000F6774A /* FlickerAPIDataLayerTests.swift in Sources */,
+				782DBA8726CD8E9C00F6774A /* FlickerSearchViewModelTests.swift in Sources */,
+				782DBA6E26CD88C700F6774A /* FlickerAPIServiceControllerTests.swift in Sources */,
+				782DBA6A26CD864500F6774A /* FlickerAPIServiceControllerMock.swift in Sources */,
+				782DBA8926CD8EB700F6774A /* FlickSearchViewControllerMock.swift in Sources */,
+				782DBA8126CD8C0000F6774A /* GetFlickerAPIModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
