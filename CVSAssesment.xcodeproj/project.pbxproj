@@ -24,6 +24,7 @@
 		780E331526CA0ACC009B1E9D /* FlickerAPIDataLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E331426CA0ACC009B1E9D /* FlickerAPIDataLayer.swift */; };
 		780E331726CA0B67009B1E9D /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E331626CA0B67009B1E9D /* StringConstants.swift */; };
 		780E331926CA0C80009B1E9D /* GetFlickerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780E331826CA0C80009B1E9D /* GetFlickerAPI.swift */; };
+		782DBA6726CCB46500F6774A /* FlickerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782DBA6626CCB46500F6774A /* FlickerDetailViewController.swift */; };
 		7846BCFB26CB457F006F9808 /* FlickSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BCFA26CB457F006F9808 /* FlickSearchViewController.swift */; };
 		7846BCFE26CB45AE006F9808 /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BCFD26CB45AE006F9808 /* FlickerSearchViewModel.swift */; };
 		7846BD0226CB4EE5006F9808 /* FlickerLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7846BD0126CB4EE5006F9808 /* FlickerLoadingView.swift */; };
@@ -79,6 +80,7 @@
 		780E331426CA0ACC009B1E9D /* FlickerAPIDataLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerAPIDataLayer.swift; sourceTree = "<group>"; };
 		780E331626CA0B67009B1E9D /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		780E331826CA0C80009B1E9D /* GetFlickerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFlickerAPI.swift; sourceTree = "<group>"; };
+		782DBA6626CCB46500F6774A /* FlickerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerDetailViewController.swift; sourceTree = "<group>"; };
 		7846BCFA26CB457F006F9808 /* FlickSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickSearchViewController.swift; sourceTree = "<group>"; };
 		7846BCFD26CB45AE006F9808 /* FlickerSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewModel.swift; sourceTree = "<group>"; };
 		7846BD0126CB4EE5006F9808 /* FlickerLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerLoadingView.swift; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 		7846BD0C26CB540C006F9808 /* FlickerDetail */ = {
 			isa = PBXGroup;
 			children = (
+				782DBA6626CCB46500F6774A /* FlickerDetailViewController.swift */,
 			);
 			path = FlickerDetail;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 				780E331326CA0ABA009B1E9D /* FlickerAPIServiceController.swift in Sources */,
 				780E330626CA0948009B1E9D /* ServiceOutcome.swift in Sources */,
 				780E330B26CA09E4009B1E9D /* Log.swift in Sources */,
+				782DBA6726CCB46500F6774A /* FlickerDetailViewController.swift in Sources */,
 				7846BD1926CB5D16006F9808 /* FlickerCell.swift in Sources */,
 				7846BD1326CB5740006F9808 /* FlickerRefreshControl.swift in Sources */,
 				7846BD1626CB5845006F9808 /* FlickerToastView.swift in Sources */,
